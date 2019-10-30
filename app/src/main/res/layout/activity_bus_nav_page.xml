@@ -8,7 +8,7 @@
     android:gravity="center|top"
     android:orientation="vertical"
     android:paddingTop="32dp"
-    tools:context=".NavigationPage">
+    tools:context=".BusNavPage">
 
     <TableRow
         android:layout_width="wrap_content"
@@ -30,7 +30,7 @@
             android:id="@+id/textView4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Personal"
+            android:text="Business"
             android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
     </TableRow>
 
@@ -47,21 +47,8 @@
                 android:id="@+id/button3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:onClick="Profile_buttonClicked"
-                android:text="Profile"
-                android:textSize="24sp" />
-        </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <Button
-                android:id="@+id/button3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:onClick="JobListing_buttonClicked"
-                android:text="Job Listings"
+                android:onClick="CreateListing_buttonClicked"
+                android:text="Create Listing"
                 android:textSize="24sp" />
         </TableRow>
 
@@ -85,8 +72,8 @@
                 android:id="@+id/button5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Logout"
                 android:onClick="Logout_buttonClicked"
+                android:text="Logout"
                 android:textSize="24sp" />
         </TableRow>
     </TableLayout>

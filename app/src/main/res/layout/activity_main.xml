@@ -117,7 +117,15 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="LogIn_buttonClicked"
-                android:text="@string/log_in" />
+                android:text="Personal" />
+
+            <Button
+                android:id="@+id/button9"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="BusLogIn_buttonClicked"
+                android:text="Business" />
         </TableRow>
 
         <TableRow
