@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Prototype3</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="username_email">Username (Email)</string>
+    <string name="password">Password</string>
+    <string name="todo">TODO</string>
+</resources>
