@@ -6,16 +6,16 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class JobListingPage extends AppCompatActivity {
+public class JobDetail extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_job_listing_page);
+        setContentView(R.layout.activity_job_detail);
     }
 
-    public void JobDescription_buttonClicked(View view){
-        Intent intent = new Intent(this, JobDetail.class);
+    public void Apply_buttonClicked(View view){
+        Intent intent = new Intent(this, JobListingPage.class);
         startActivity(intent);
     }
 }
