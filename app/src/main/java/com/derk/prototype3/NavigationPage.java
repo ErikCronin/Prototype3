@@ -18,4 +18,9 @@ public class NavigationPage extends AppCompatActivity {
         Intent intent = new Intent(this, Profile.class);
         startActivity(intent);
     }
+
+    public void JobListing_buttonClicked(View view){
+        Intent intent = new Intent(this, JobListingPage.class);
+        startActivity(intent);
+    }
 }
