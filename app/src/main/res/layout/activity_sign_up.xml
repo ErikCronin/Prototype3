@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#43FFEB3B"
+    android:background="#729C9023"
     android:gravity="center|top"
     android:orientation="vertical"
     android:paddingTop="32dp"
-    tools:context=".MainActivity">
+    tools:context=".SignUp">
 
     <TableLayout
         android:layout_width="wrap_content"
@@ -37,7 +36,7 @@
                 android:id="@+id/textView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Sign in!"
+                android:text="Sign Up!"
                 android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
         </TableRow>
 
@@ -99,23 +98,27 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/textView3"
+                android:id="@+id/passwordText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:gravity="end"
-                android:text="@string/forgot_password" />
+                android:text="Confirm Password" />
+
         </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <Button
-                android:id="@+id/button"
-                style="@style/Widget.AppCompat.Button"
+            <EditText
+                android:id="@+id/editText2"
+                style="@style/Widget.AppCompat.AutoCompleteTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/log_in" />
+                android:ems="10"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                tools:ignore="Autofill" />
+
         </TableRow>
 
         <TableRow
@@ -126,7 +129,7 @@
                 android:id="@+id/button2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:onClick="SignUp_buttonClicked"
+                android:onClick="SignUpConf_buttonClicked"
                 android:text="Sign Up" />
         </TableRow>
 
