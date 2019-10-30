@@ -18,4 +18,9 @@ public class BusCr8Listing extends AppCompatActivity {
         Intent intent = new Intent(this, BusNavPage.class);
         startActivity(intent);
     }
+
+    public void Back_buttonClicked(View view){
+        Intent intent = new Intent(this, BusNavPage.class);
+        startActivity(intent);
+    }
 }

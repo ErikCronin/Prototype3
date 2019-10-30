@@ -18,4 +18,9 @@ public class JobDetail extends AppCompatActivity {
         Intent intent = new Intent(this, JobListingPage.class);
         startActivity(intent);
     }
+
+    public void Back_buttonClicked(View view){
+        Intent intent = new Intent(this, JobListingPage.class);
+        startActivity(intent);
+    }
 }
